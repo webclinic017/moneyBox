@@ -1,5 +1,5 @@
 name: moneyBox
-description: A new Flutter project.
+description: A SuperApp deicated to democratising finance.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -51,72 +51,72 @@ flutter_icons:
   ios: true
   macos: true
   remove_alpha_ios: true
-  image_path: "assets/icon/moneybox.png" # Path to the icon image.
+  image_path: "assets/icon/moneyboxlogo.png" # Path to the icon image.
   min_sdk_android: 21 # android min sdk min:16, default 21
   web:
     generate: true
-    image_path: "assets/icon/moneybox.png" # Path to the icon image.
+    image_path: "assets/icon/moneyboxlogo.png" # Path to the icon image.
     background_color: "#hexcode"
     theme_color: "#hexcode"
   windows:
     generate: true
-    image_path: "assets/icon/moneybox.png" # Path to the icon image.
+    image_path: "assets/icon/moneyboxlogo.png" # Path to the icon image.
     icon_size: 48 # min:48, max:256, default: 48
     background_color: "#hexcode"
     theme_color: "#hexcode"
   linux:
     generate: true
-    image_path: "assets/icon/moneybox.png" # Path to the icon image.
+    image_path: "assets/icon/moneyboxlogo.png" # Path to the icon image.
     background_color: "#hexcode"
     theme_color: "#hexcode"
   firefox:
     generate: true
-    image_path: "assets/icon/moneybox.png" # Path to the icon image.
+    image_path: "assets/icon/moneyboxlogo.png" # Path to the icon image.
     background_color: "#hexcode"
     theme_color: "#hexcode"
   safari:
     generate: true
-    image_path: "assets/icon/moneybox.png" # Path to the icon image.
+    image_path: "assets/icon/moneyboxlogo.png" # Path to the icon image.
     background_color: "#hexcode"
     theme_color: "#hexcode"
   chrome:
     generate: true
-    image_path: "assets/icon/moneybox.png" # Path to the icon image.
+    image_path: "assets/icon/moneyboxlogo.png" # Path to the icon image.
     background_color: "#hexcode"
     theme_color: "#hexcode"
   opera:
     generate: true
-    image_path: "assets/icon/moneybox.png" # Path to the icon image.
+    image_path: "assets/icon/moneyboxlogo.png" # Path to the icon image.
     background_color: "#hexcode"
     theme_color: "#hexcode"
   edge: 
     generate: true
-    image_path: "assets/icon/moneybox.png" # Path to the icon image.
+    image_path: "assets/icon/moneyboxlogo.png" # Path to the icon image.
     background_color: "#hexcode"
     theme_color: "#hexcode"
   ie:
     generate: true
-    image_path: "assets/icon/moneybox.png" # Path to the icon image.
+    image_path: "assets/icon/moneyboxlogo.png" # Path to the icon image.
     background_color: "#hexcode"
     theme_color: "#hexcode"
   firefox_os: 
     generate: true
-    image_path: "assets/icon/moneybox.png" # Path to the icon image.
+    image_path: "assets/icon/moneyboxlogo.png" # Path to the icon image.
     background_color: "#hexcode"
     theme_color: "#hexcode"
   android_chrome:
     generate: true
-    image_path: "assets/icon/moneybox.png" # Path to the icon image.
+    image_path: "assets/icon/moneyboxlogo.png" # Path to the icon image.
     background_color: "#hexcode"
     theme_color: "#hexcode"
   android_firefox:  
     generate: true
-    image_path: "assets/icon/moneybox.png" # Path to the icon image.
+    image_path: "assets/icon/moneyboxlogo.png" # Path to the icon image.
     background_color: "#hexcode"
     theme_color: "#hexcode"
   android_opera:
     generate: true
-    image_path: "assets/icon/moneybox.png" # Path to the icon image.
+    image_path: "assets/icon/moneyboxlogo.png" # Path to the icon image.
     background_color: "#hexcode"
     theme_color: "#hexcode"
 
@@ -137,6 +137,10 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+   
+# To add assets to your application, add an assets section, like this:
+  assets:
+    - .env
 
   # To add assets to your application, add an assets section, like this:
   # assets:

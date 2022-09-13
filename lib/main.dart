@@ -1,13 +1,18 @@
+import 'dart:html';
+
 import "package:flutter/material.dart";
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:url_strategy/url_strategy.dart';
+// ignore: unused_import
 import "pages/dashboard.dart";
 import "pages/login.dart";
-import "package:urls_strategy/url_strategy.dart";
-import "package:flutter_dotenv/flutterflutter_dotenv.dart";
+import 'dart:html';
+
 
 const loginRoute = '/';
 const dashboardRoute = 'dashboard';
 
-Future<void> void main() async {
+Future<void> main() async {
   setPathUrlStrategy(); // Removes /#/ from the URL
  await dotenv.load();
  runApp(const MyApp());
@@ -18,10 +23,11 @@ class MyApp extends StatelessWidget {
  Widget build(BuildContext context) {
    return MaterialApp(onGenerateRoute: _routes(), theme: _theme());
  }
-... 
+//... 
 }
  RouteFactory _routes() {
    return (settings) {
+     // ignore: unused_local_variable
      Widget screen;
      switch (settings.name) {
        case loginRoute:
@@ -34,11 +40,11 @@ class MyApp extends StatelessWidget {
          String? code = Uri.base.queryParameters['code'];
          // This code tells the pop-up auth window to send the code
          if (window.opener != null && code != null) {
-           window.opener!.postMessage(window.location.href, "http://
+           window.opener!.postMessage(window.location.href, "http://localhost:3000");
          }
          return null;
      }
-     return MaterialPageRoute(builder: (BuildContext context) => scr
+     return MaterialPageRoute(builder: (BuildContext context) => screen);
    };
 }
  ThemeData _theme() {
